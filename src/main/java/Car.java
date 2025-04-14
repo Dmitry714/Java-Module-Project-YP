@@ -1,6 +1,6 @@
 class Car {
-    protected String brand;
-    protected int speed;
+    protected final String brand;
+    protected final int speed;
 
     public Car(String brand, int speed) {
         this.brand = brand;
